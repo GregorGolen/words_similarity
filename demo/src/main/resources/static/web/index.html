@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Similarity Analysis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Word Similarity Analyzer</h1>
+</header>
+
+<main>
+    <div class="input-group">
+        <input type="text" id="word1" placeholder="Enter first word" class="large-input">
+        <input type="text" id="word2" placeholder="Enter second word" class="large-input">
+        <button onclick="analyzeSimilarity()">Analyze</button>
+    </div>
+
+    <div class="result">
+        <p>Word 1: <span id="display-word1"></span></p>
+        <p>Word 2: <span id="display-word2"></span></p>
+        <p id="similarity-result">Similarity: </p>
+        <div class="embeddings">
+            <div>
+                <p>Embeddings1:</p>
+                <textarea id="embeddings1" readonly></textarea>
+            </div>
+            <div>
+                <p>Embeddings2:</p>
+                <textarea id="embeddings2" readonly></textarea>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>GGOLEN RETRO STYLE © 2023</p>
+</footer>
+
+</body>
+
+</html>
