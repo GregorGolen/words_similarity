@@ -43,7 +43,6 @@ class AiService {
             return openAiService.createEmbeddings(request)
                     .getData()
                     .stream()
-                    .sorted(Comparator.comparing(Embedding::getIndex))
                     .map(Embedding::getEmbedding)
                     .toList();
 
