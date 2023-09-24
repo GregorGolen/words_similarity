@@ -1,2 +1,3 @@
 Determining similarity between 2 words or sentences
-![was](https://github.com/GregorGolen/similarity/assets/25569346/26e37690-62e8-45a6-8e4c-26194c92c4fb)
+
+![similarity_analyzer](https://github.com/GregorGolen/similarity/assets/25569346/df0cafd1-c4da-47af-b0ce-54756ee959df)
